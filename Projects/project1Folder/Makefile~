@@ -1,0 +1,2 @@
+project1.cpp:proj1.cpp proj1.h 
+	g++ -Wall project1.cpp -o project1

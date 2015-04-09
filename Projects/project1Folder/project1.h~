@@ -1,0 +1,12 @@
+#ifndef proj1_h
+#define proj1_h
+
+using namespace std;
+const int MAX_VERTICES=20;
+void InitializeGraph(int graph[MAX_VERTICES][MAX_VERTICES], int size);
+bool RemoveEdge(int graph[MAX_VERTICES][MAX_VERTICES], int size, int u, int v);
+bool CreateEdge(int graph[MAX_VERTICES][MAX_VERTICES], int size, int u, int v);
+bool IsEdge(int graph[MAX_VERTICES][MAX_VERTICES], int size, int u, int v);
+bool IsConnected(int graph[MAX_VERTICES][MAX_VERTICES], int size);
+
+#endif

@@ -1,0 +1,29 @@
+/*
+ * Template Date.cpp
+ *
+ * Students must implement the entire class, including full handling
+ * of leap years.
+ */
+
+
+#include <iostream>
+#include "Date.h"
+
+using namespace std;
+
+/* IMPLEMENTATION GOES HERE */
+
+Date::Date()
+{
+  m_month=1;
+  m_day=1;
+  m_year=MIN_YEAR; 
+}
+Date::Date(int month,int day,int year)
+{
+  if(month <= 12 and month >=1)
+    {
+      m_month=month;
+      if(month == 1 || month ==3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
+    }
+}
